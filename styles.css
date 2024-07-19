@@ -10,9 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+}
   
-  .container {
+.container {
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
@@ -21,15 +21,15 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
+}
   
-  h1, h2 {
+h1, h2 {
     color: #333;
     margin-bottom: 20px;
     font-size: 2rem;
-  }
+}
   
-  input {
+input {
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -37,9 +37,9 @@ body {
     margin-bottom: 10px;
     width: calc(100% - 24px); /* Ajusta a largura dos inputs */
     box-sizing: border-box; /* Inclui o padding e border na largura total */
-  }
+}
   
-  button {
+button {
     padding: 12px;
     border: none;
     border-radius: 4px;
@@ -50,35 +50,35 @@ body {
     width: calc(100% - 24px); /* Ajusta a largura dos botões */
     box-sizing: border-box; /* Inclui o padding e border na largura total */
     margin-top: 10px;
-  }
+}
   
-  button:hover {
+button:hover {
     opacity: 0.9;
-  }
+}
   
-  button.adicionar-btn {
+button.adicionar-btn {
     background-color: #28a745; /* Verde para o botão de adicionar */
-  }
+}
   
-  button.adicionar-btn:hover {
+button.adicionar-btn:hover {
     background-color: #218838; /* Verde mais escuro no hover */
-  }
+}
   
-  button.pago-btn {
+button.pago-btn {
     background-color: #dc3545; /* Vermelho para o botão de pago */
-  }
+}
   
-  button.pago-btn:hover {
+button.pago-btn:hover {
     background-color: #c82333; /* Vermelho mais escuro no hover */
-  }
+}
   
-  ul {
+ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
+}
   
-  li {
+li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,15 +88,15 @@ body {
     border-radius: 4px;
     margin-bottom: 10px;
     font-size: 1rem;
-  }
+}
   
-  li.pago {
+li.pago {
     text-decoration: line-through;
     color: #6c757d;
     background: #e9ecef;
-  }
+}
   
-  .footer {
+.footer {
     position: fixed; /* Fixa o elemento na tela */
     bottom: 0; /* Alinha ao fundo da página */
     left: 0; /* Alinha ao canto esquerdo da página */
@@ -105,22 +105,22 @@ body {
     color: #ffffff;
     text-align: center;
     width: 100%; /* Garante que o rodapé ocupe toda a largura da tela */
-  }
+}
   
-  .mensagem-sucesso, .mensagem {
+.mensagem-sucesso, .mensagem {
     color: #28a745;
     text-align: center;
     margin-top: 10px;
-  }
+}
   
-  /* Animação do gradiente de fundo */
-  @keyframes gradienteMovendo {
+/* Animação do gradiente de fundo */
+@keyframes gradienteMovendo {
     0% { background-position: 0% 0%; }
     50% { background-position: 100% 100%; }
     100% { background-position: 0% 0%; }
-  }
+}
   
-  .busca-input {
+.busca-input {
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -128,66 +128,32 @@ body {
     margin-bottom: 10px;
     width: calc(100% - 24px); /* Ajusta a largura dos inputs */
     box-sizing: border-box; /* Inclui o padding e border na largura total */
-  }
-  
-  /* Estilos para o formulário de login e registro */
-  input[type="text"], input[type="password"] {
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-    width: calc(100% - 24px); /* Ajusta a largura dos inputs */
-    box-sizing: border-box; /* Inclui o padding e border na largura total */
-  }
-  
-  button {
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: calc(100% - 24px); /* Ajusta a largura dos botões */
-    box-sizing: border-box; /* Inclui o padding e border na largura total */
-    margin-top: 10px;
-  }
-  
-  button:hover {
-    opacity: 0.9;
-  }
-  
-  button.adicionar-btn {
-    background-color: #28a745; /* Verde para o botão de adicionar */
-  }
-  
-  button.adicionar-btn:hover {
+}
+
+/* Estilos para os botões de Login e Registro */
+button.login-btn,
+button.registrar-btn {
+    background-color: #28a745; /* Verde para os botões de login e registrar */
+}
+
+button.login-btn:hover,
+button.registrar-btn:hover {
     background-color: #218838; /* Verde mais escuro no hover */
-  }
-  
-  button.pago-btn {
-    background-color: #dc3545; /* Vermelho para o botão de pago */
-  }
-  
-  button.pago-btn:hover {
-    background-color: #c82333; /* Vermelho mais escuro no hover */
-  }
-  
-  .nav {
+}
+
+.nav {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-  }
-  
-  .nav a {
+}
+
+.nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
-  }
-  
-  .nav a:hover {
+}
+
+.nav a:hover {
     text-decoration: underline;
-  }
-  
+}

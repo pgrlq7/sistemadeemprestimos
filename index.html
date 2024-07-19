@@ -13,7 +13,7 @@
     <div id="loginMensagem" class="mensagem"></div>
     <input type="text" id="loginUsuario" placeholder="Usuário">
     <input type="password" id="loginSenha" placeholder="Senha">
-    <button onclick="login()">Entrar</button>
+    <button class="login-btn" onclick="login()">Entrar</button>
     <p>Não tem uma conta? <a href="#" onclick="showSection('registro')">Registrar</a></p>
   </div>
 
@@ -23,7 +23,7 @@
     <div id="registroMensagem" class="mensagem"></div>
     <input type="text" id="registroUsuario" placeholder="Usuário">
     <input type="password" id="registroSenha" placeholder="Senha">
-    <button onclick="registrar()">Registrar</button>
+    <button class="registrar-btn" onclick="registrar()">Registrar</button>
     <p>Já tem uma conta? <a href="#" onclick="showSection('login')">Login</a></p>
   </div>
 
@@ -39,7 +39,7 @@
         <input type="text" id="nome" placeholder="Nome">
         <input type="number" id="valorEmprestado" placeholder="Valor Emprestado">
         <input type="number" id="valorRecebido" placeholder="Valor a Receber">
-        <button onclick="adicionarEmprestimo()" class="adicionar-btn">Adicionar Empréstimo</button>
+        <button class="adicionar-btn" onclick="adicionarEmprestimo()">Adicionar Empréstimo</button>
         <p id="mensagemSucesso" class="mensagem-sucesso"></p>
       </div>
     </div>
